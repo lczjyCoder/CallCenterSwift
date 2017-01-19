@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		429B5096193D30372B6DAE78 /* Pods_CallCenterSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BD4563641E473CC4A188D4 /* Pods_CallCenterSwift.framework */; };
+		69077A173CD5EE06A9AC8720 /* Pods_CallCenterSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FF073A2D845897C5B46F02 /* Pods_CallCenterSwiftTests.framework */; };
 		80B65AA61E2E04F500C5A4E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B65AA51E2E04F500C5A4E2 /* AppDelegate.swift */; };
 		80B65AA81E2E04F500C5A4E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B65AA71E2E04F500C5A4E2 /* ViewController.swift */; };
-		80B65AAB1E2E04F500C5A4E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B65AA91E2E04F500C5A4E2 /* Main.storyboard */; };
 		80B65AAD1E2E04F500C5A4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B65AAC1E2E04F500C5A4E2 /* Assets.xcassets */; };
 		80B65AB01E2E04F500C5A4E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B65AAE1E2E04F500C5A4E2 /* LaunchScreen.storyboard */; };
 		80B65ABB1E2E04F500C5A4E2 /* CallCenterSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B65ABA1E2E04F500C5A4E2 /* CallCenterSwiftTests.swift */; };
@@ -34,10 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11FF073A2D845897C5B46F02 /* Pods_CallCenterSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CallCenterSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D7620730AF36CAA7D71EF1 /* Pods-CallCenterSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallCenterSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-CallCenterSwift/Pods-CallCenterSwift.release.xcconfig"; sourceTree = "<group>"; };
+		31BD4563641E473CC4A188D4 /* Pods_CallCenterSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CallCenterSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B65AA21E2E04F500C5A4E2 /* CallCenterSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallCenterSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B65AA51E2E04F500C5A4E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80B65AA71E2E04F500C5A4E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		80B65AAA1E2E04F500C5A4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80B65AAC1E2E04F500C5A4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80B65AAF1E2E04F500C5A4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80B65AB11E2E04F500C5A4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		80B65AC11E2E04F500C5A4E2 /* CallCenterSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallCenterSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B65AC51E2E04F500C5A4E2 /* CallCenterSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallCenterSwiftUITests.swift; sourceTree = "<group>"; };
 		80B65AC71E2E04F500C5A4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960B6D213D3634CCD3D153B9 /* Pods-CallCenterSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallCenterSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CallCenterSwiftTests/Pods-CallCenterSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		C89C20DA4F4E0396428AFD08 /* Pods-CallCenterSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallCenterSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CallCenterSwiftTests/Pods-CallCenterSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5C838D4EB47EF4514DB2640 /* Pods-CallCenterSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallCenterSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CallCenterSwift/Pods-CallCenterSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				429B5096193D30372B6DAE78 /* Pods_CallCenterSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69077A173CD5EE06A9AC8720 /* Pods_CallCenterSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,8 @@
 				80B65AB91E2E04F500C5A4E2 /* CallCenterSwiftTests */,
 				80B65AC41E2E04F500C5A4E2 /* CallCenterSwiftUITests */,
 				80B65AA31E2E04F500C5A4E2 /* Products */,
+				BB538A570FEF8DA50EDC4A70 /* Pods */,
+				C8B8D13E23712BE95DBE83CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +109,6 @@
 			children = (
 				80B65AA51E2E04F500C5A4E2 /* AppDelegate.swift */,
 				80B65AA71E2E04F500C5A4E2 /* ViewController.swift */,
-				80B65AA91E2E04F500C5A4E2 /* Main.storyboard */,
 				80B65AAC1E2E04F500C5A4E2 /* Assets.xcassets */,
 				80B65AAE1E2E04F500C5A4E2 /* LaunchScreen.storyboard */,
 				80B65AB11E2E04F500C5A4E2 /* Info.plist */,
@@ -125,6 +134,26 @@
 			path = CallCenterSwiftUITests;
 			sourceTree = "<group>";
 		};
+		BB538A570FEF8DA50EDC4A70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5C838D4EB47EF4514DB2640 /* Pods-CallCenterSwift.debug.xcconfig */,
+				12D7620730AF36CAA7D71EF1 /* Pods-CallCenterSwift.release.xcconfig */,
+				C89C20DA4F4E0396428AFD08 /* Pods-CallCenterSwiftTests.debug.xcconfig */,
+				960B6D213D3634CCD3D153B9 /* Pods-CallCenterSwiftTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8B8D13E23712BE95DBE83CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31BD4563641E473CC4A188D4 /* Pods_CallCenterSwift.framework */,
+				11FF073A2D845897C5B46F02 /* Pods_CallCenterSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80B65ACA1E2E04F500C5A4E2 /* Build configuration list for PBXNativeTarget "CallCenterSwift" */;
 			buildPhases = (
+				68B59D39F2DAC170BF3E5873 /* [CP] Check Pods Manifest.lock */,
 				80B65A9E1E2E04F500C5A4E2 /* Sources */,
 				80B65A9F1E2E04F500C5A4E2 /* Frameworks */,
 				80B65AA01E2E04F500C5A4E2 /* Resources */,
+				C8E071421374C0A4CBC61E9E /* [CP] Embed Pods Frameworks */,
+				18DD2AA262B9A18A18683043 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80B65ACD1E2E04F500C5A4E2 /* Build configuration list for PBXNativeTarget "CallCenterSwiftTests" */;
 			buildPhases = (
+				15E4947B7CEC1FC145AC4B6F /* [CP] Check Pods Manifest.lock */,
 				80B65AB21E2E04F500C5A4E2 /* Sources */,
 				80B65AB31E2E04F500C5A4E2 /* Frameworks */,
 				80B65AB41E2E04F500C5A4E2 /* Resources */,
+				38D6BB398C79A5B3E1513274 /* [CP] Embed Pods Frameworks */,
+				F5F99B7211EE7F9B794F15CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +228,7 @@
 				TargetAttributes = {
 					80B65AA11E2E04F500C5A4E2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3NY6R8Z8T4;
 						ProvisioningStyle = Automatic;
 					};
 					80B65AB51E2E04F500C5A4E2 = {
@@ -234,7 +270,6 @@
 			files = (
 				80B65AB01E2E04F500C5A4E2 /* LaunchScreen.storyboard in Resources */,
 				80B65AAD1E2E04F500C5A4E2 /* Assets.xcassets in Resources */,
-				80B65AAB1E2E04F500C5A4E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +288,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15E4947B7CEC1FC145AC4B6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		18DD2AA262B9A18A18683043 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CallCenterSwift/Pods-CallCenterSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38D6BB398C79A5B3E1513274 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CallCenterSwiftTests/Pods-CallCenterSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68B59D39F2DAC170BF3E5873 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8E071421374C0A4CBC61E9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CallCenterSwift/Pods-CallCenterSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F99B7211EE7F9B794F15CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CallCenterSwiftTests/Pods-CallCenterSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80B65A9E1E2E04F500C5A4E2 /* Sources */ = {
@@ -296,14 +424,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		80B65AA91E2E04F500C5A4E2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80B65AAA1E2E04F500C5A4E2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		80B65AAE1E2E04F500C5A4E2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -408,9 +528,12 @@
 		};
 		80B65ACB1E2E04F500C5A4E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C838D4EB47EF4514DB2640 /* Pods-CallCenterSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NY6R8Z8T4;
 				INFOPLIST_FILE = CallCenterSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.zjy.CallCenterSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,9 +543,12 @@
 		};
 		80B65ACC1E2E04F500C5A4E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D7620730AF36CAA7D71EF1 /* Pods-CallCenterSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NY6R8Z8T4;
 				INFOPLIST_FILE = CallCenterSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.zjy.CallCenterSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +558,7 @@
 		};
 		80B65ACE1E2E04F500C5A4E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89C20DA4F4E0396428AFD08 /* Pods-CallCenterSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +573,7 @@
 		};
 		80B65ACF1E2E04F500C5A4E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960B6D213D3634CCD3D153B9 /* Pods-CallCenterSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -503,6 +631,7 @@
 				80B65ACC1E2E04F500C5A4E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80B65ACD1E2E04F500C5A4E2 /* Build configuration list for PBXNativeTarget "CallCenterSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +640,7 @@
 				80B65ACF1E2E04F500C5A4E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80B65AD01E2E04F500C5A4E2 /* Build configuration list for PBXNativeTarget "CallCenterSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +649,7 @@
 				80B65AD21E2E04F500C5A4E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

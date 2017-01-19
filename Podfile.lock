@@ -1,0 +1,352 @@
+PODS:
+  - AFNetworking (3.1.01):
+    - AFNetworking/NSURLSession (= 3.1.01)
+    - AFNetworking/Reachability (= 3.1.01)
+    - AFNetworking/Security (= 3.1.01)
+    - AFNetworking/Serialization (= 3.1.01)
+    - AFNetworking/UIKit (= 3.1.01)
+  - AFNetworking/NSURLSession (3.1.01):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.01)
+  - AFNetworking/Security (3.1.01)
+  - AFNetworking/Serialization (3.1.01)
+  - AFNetworking/UIKit (3.1.01):
+    - AFNetworking/NSURLSession
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - FTUtils (1.1.11)
+  - LvmmBaseClass (1.2.6):
+    - LvmmBaseClass/BaseClassConfig (= 1.2.6)
+    - LvmmBaseClass/BaseVC (= 1.2.6)
+    - LvmmBaseClass/Classes (= 1.2.6)
+    - LvmmBaseClass/CommonViews (= 1.2.6)
+    - LvmmBaseClass/LVMMTabBar (= 1.2.6)
+    - LvmmBaseClass/LVNavigation (= 1.2.6)
+    - LvmmBaseClass/Model (= 1.2.6)
+    - LvmmBaseClass/ViewModel (= 1.2.6)
+  - LvmmBaseClass/BaseClassConfig (1.2.6)
+  - LvmmBaseClass/BaseVC (1.2.6):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmCommonView (~> 2.0.0)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmLocation (~> 1.1.0)
+    - LvmmShare (~> 1.1.0)
+    - Masonry (~> 1.0.0)
+  - LvmmBaseClass/Classes (1.2.6):
+    - FMDB (~> 2.6.2)
+    - LvmmCategory (~> 1.0.2)
+    - LvmmCms (~> 1.0.0)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmNetwork (~> 3.0.0)
+    - LvmmStatistics (~> 1.1.2)
+    - LvmmUtil (~> 1.0.1)
+    - MJRefresh (~> 1.4.400)
+  - LvmmBaseClass/CommonViews (1.2.6):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmCms (~> 1.0.0)
+    - LvmmCommonView (~> 2.0.0)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmModel (~> 1.3)
+    - LvmmStatistics (~> 1.1.2)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmBaseClass/LVMMTabBar (1.2.6):
+    - LvmmCategory (~> 1.0.2)
+    - Masonry (~> 1.0.0)
+  - LvmmBaseClass/LVNavigation (1.2.6):
+    - LvmmCategory (~> 1.0.2)
+  - LvmmBaseClass/Model (1.2.6):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmNetwork (~> 3.0.0)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmBaseClass/ViewModel (1.2.6):
+    - LvmmCommonView (~> 2.0.0)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmNetwork (~> 3.0.0)
+  - LvmmCategory (1.0.9):
+    - LvmmCategory/NS+Category (= 1.0.9)
+    - LvmmCategory/NS+Runtime (= 1.0.9)
+    - LvmmCategory/Other+Category (= 1.0.9)
+    - LvmmCategory/UI+Category (= 1.0.9)
+  - LvmmCategory/NS+Category (1.0.9)
+  - LvmmCategory/NS+Runtime (1.0.9)
+  - LvmmCategory/Other+Category (1.0.9)
+  - LvmmCategory/UI+Category (1.0.9)
+  - LvmmCms (1.0.3):
+    - LvmmUtil (~> 1.0.1)
+  - LvmmCommonView (2.0.5):
+    - LvmmCategory (~> 1.0.4)
+    - LvmmUtil (~> 1.0.1)
+    - Masonry (~> 1.0.0)
+    - SDWebImage (~> 3.8.1)
+  - LvmmConfig (1.2.6)
+  - LvmmImage (1.0.4):
+    - SDWebImage (~> 3.8.1)
+  - LvmmLocation (1.1.1)
+  - LvmmMediator (1.0.6)
+  - LvmmModel (1.3.3):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmModel/BaseObject (= 1.3.3)
+    - LvmmModel/CommentModel (= 1.3.3)
+    - LvmmModel/GrouponModel (= 1.3.3)
+    - LvmmModel/HomeModel (= 1.3.3)
+    - LvmmModel/HotelModel (= 1.3.3)
+    - LvmmModel/LoginModel (= 1.3.3)
+    - LvmmModel/MicroTourModel (= 1.3.3)
+    - LvmmModel/Models (= 1.3.3)
+    - LvmmModel/ModelsVo (= 1.3.3)
+    - LvmmModel/MyLvmamaModel (= 1.3.3)
+    - LvmmModel/OrderModel (= 1.3.3)
+    - LvmmModel/PlaceModel (= 1.3.3)
+    - LvmmModel/RouteModel (= 1.3.3)
+    - LvmmModel/ShipModel (= 1.3.3)
+    - LvmmModel/VisaModel (= 1.3.3)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmModel/BaseObject (1.3.3):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmModel/CommentModel (1.3.3):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmModel/GrouponModel (1.3.3):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmModel/HomeModel (1.3.3):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmModel/HotelModel (1.3.3):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmModel/LoginModel (1.3.3):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmModel/MicroTourModel (1.3.3):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmModel/Models (1.3.3):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmModel/ModelsVo (1.3.3):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmModel/MyLvmamaModel (1.3.3):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmModel/OrderModel (1.3.3):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmModel/PlaceModel (1.3.3):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmModel/RouteModel (1.3.3):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmModel/ShipModel (1.3.3):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmModel/VisaModel (1.3.3):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmUtil (~> 1.0.1)
+  - LvmmNetwork (3.0.3):
+    - LvmmNetwork/Core (= 3.0.3)
+    - LvmmNetwork/StatusManager (= 3.0.3)
+  - LvmmNetwork/Core (3.0.3):
+    - AFNetworking (~> 3.1.01)
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+    - LvmmLocation (~> 1.1.0)
+    - LvmmUtil (~> 1.0.1)
+    - ObjcAssociatedObjectHelpers
+    - ReactiveCocoa (~> 2.5)
+    - SFHFKeychainUtils
+    - TMCache (~> 2.1.01)
+  - LvmmNetwork/StatusManager (3.0.3):
+    - AFNetworking/Reachability
+    - LvmmUtil
+  - LvmmShare (1.1.2):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmImage (~> 1.0.2)
+  - LvmmStatistics (1.1.6):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmStatistics/LvKSharedData (= 1.1.6)
+    - LvmmStatistics/RhinoStatistics (= 1.1.6)
+    - LvmmStatistics/TagSupport (= 1.1.6)
+    - LvmmStatistics/WapperUM (= 1.1.6)
+  - LvmmStatistics/LvKSharedData (1.1.6):
+    - LvmmCategory (~> 1.0.2)
+  - LvmmStatistics/RhinoStatistics (1.1.6):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmLocation (~> 1.1.1)
+    - LvmmNetwork (~> 3.0.0)
+    - RealReachability (~> 1.1.0)
+  - LvmmStatistics/TagSupport (1.1.6):
+    - LvmmCategory (~> 1.0.2)
+    - LvmmConfig (~> 1.2.0)
+  - LvmmStatistics/WapperUM (1.1.6):
+    - LvmmCategory (~> 1.0.2)
+  - LvmmUtil (1.0.5)
+  - Masonry (1.0.2)
+  - MJRefresh (1.4.401)
+  - ObjcAssociatedObjectHelpers (2.0.1):
+    - ObjcAssociatedObjectHelpers/Core (= 2.0.1)
+    - ObjcAssociatedObjectHelpers/NSObject+Dictionary (= 2.0.1)
+  - ObjcAssociatedObjectHelpers/Core (2.0.1)
+  - ObjcAssociatedObjectHelpers/NSObject+Dictionary (2.0.1):
+    - ObjcAssociatedObjectHelpers/Core
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - RealReachability (1.1.8):
+    - RealReachability/Connection (= 1.1.8)
+    - RealReachability/Ping (= 1.1.8)
+  - RealReachability/Connection (1.1.8)
+  - RealReachability/Ping (1.1.8)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SFHFKeychainUtils (0.0.1)
+  - TMCache (2.1.02)
+
+DEPENDENCIES:
+  - FTUtils (from `http://lvioscode.com/ios_vendor/ftutils.git`, branch `1.1.11`)
+  - LvmmBaseClass (from `http://lvioscode.com/ios_pods_business_lvmama/LvmmBaseClass.git`, branch `1.2.6`)
+  - LvmmCategory (from `http://lvioscode.com/ios_pods_kit/LvmmCategory.git`, branch `1.0.9`)
+  - LvmmCms (from `http://lvioscode.com/ios_pods_business_lvmama/LvmmCms.git`, branch `1.0.3`)
+  - LvmmCommonView (from `http://lvioscode.com/ios_pods_kit/LvmmCommonView.git`, branch `2.0.5`)
+  - LvmmConfig (from `http://lvioscode.com/ios_pods_business_lvmama/LvmmConfig.git`, branch `1.2.6`)
+  - LvmmImage (from `http://lvioscode.com/ios_pods_kit/LvmmImage.git`, branch `1.0.4`)
+  - LvmmLocation (= 1.1.1)
+  - LvmmMediator (from `http://lvioscode.com/ios_pods_business_lvmama/LvmmMediator.git`, branch `1.0.6`)
+  - LvmmNetwork (from `http://lvioscode.com/ios_pods_function/LvmmNetwork.git`, branch `3.0.4`)
+  - LvmmShare (from `http://lvioscode.com/ios_pods_function/LvmmShare.git`, branch `1.1.2`)
+  - LvmmStatistics (from `http://lvioscode.com/ios_pods_function/LvmmStatistics.git`, branch `1.1.6`)
+  - LvmmUtil (from `http://lvioscode.com/ios_pods_kit/LvmmUtil.git`, branch `1.0.5`)
+  - MJRefresh (= 1.4.401)
+
+EXTERNAL SOURCES:
+  FTUtils:
+    :branch: 1.1.11
+    :git: http://lvioscode.com/ios_vendor/ftutils.git
+  LvmmBaseClass:
+    :branch: 1.2.6
+    :git: http://lvioscode.com/ios_pods_business_lvmama/LvmmBaseClass.git
+  LvmmCategory:
+    :branch: 1.0.9
+    :git: http://lvioscode.com/ios_pods_kit/LvmmCategory.git
+  LvmmCms:
+    :branch: 1.0.3
+    :git: http://lvioscode.com/ios_pods_business_lvmama/LvmmCms.git
+  LvmmCommonView:
+    :branch: 2.0.5
+    :git: http://lvioscode.com/ios_pods_kit/LvmmCommonView.git
+  LvmmConfig:
+    :branch: 1.2.6
+    :git: http://lvioscode.com/ios_pods_business_lvmama/LvmmConfig.git
+  LvmmImage:
+    :branch: 1.0.4
+    :git: http://lvioscode.com/ios_pods_kit/LvmmImage.git
+  LvmmMediator:
+    :branch: 1.0.6
+    :git: http://lvioscode.com/ios_pods_business_lvmama/LvmmMediator.git
+  LvmmNetwork:
+    :branch: 3.0.4
+    :git: http://lvioscode.com/ios_pods_function/LvmmNetwork.git
+  LvmmShare:
+    :branch: 1.1.2
+    :git: http://lvioscode.com/ios_pods_function/LvmmShare.git
+  LvmmStatistics:
+    :branch: 1.1.6
+    :git: http://lvioscode.com/ios_pods_function/LvmmStatistics.git
+  LvmmUtil:
+    :branch: 1.0.5
+    :git: http://lvioscode.com/ios_pods_kit/LvmmUtil.git
+
+CHECKOUT OPTIONS:
+  FTUtils:
+    :commit: b5f07afede29dcd89817abc3f9ddd76a28c57d85
+    :git: http://lvioscode.com/ios_vendor/ftutils.git
+  LvmmBaseClass:
+    :commit: e35c2470b835a0739497d2179e8a7473b7fd32d5
+    :git: http://lvioscode.com/ios_pods_business_lvmama/LvmmBaseClass.git
+  LvmmCategory:
+    :commit: 9d79d3248e23f681b7ac405f8261940d085b2840
+    :git: http://lvioscode.com/ios_pods_kit/LvmmCategory.git
+  LvmmCms:
+    :commit: 043d71d4ba815e777498a4afe76df6d300311bdc
+    :git: http://lvioscode.com/ios_pods_business_lvmama/LvmmCms.git
+  LvmmCommonView:
+    :commit: acdb97586a7e0c0cfbf5b3ae0fd98cb1c221f575
+    :git: http://lvioscode.com/ios_pods_kit/LvmmCommonView.git
+  LvmmConfig:
+    :commit: 7571d337678b8347336fe760379c0a517bcc03a6
+    :git: http://lvioscode.com/ios_pods_business_lvmama/LvmmConfig.git
+  LvmmImage:
+    :commit: 44e1ecd29f496eac5d10804431d83d4fbea714ff
+    :git: http://lvioscode.com/ios_pods_kit/LvmmImage.git
+  LvmmMediator:
+    :commit: 43e88daf56d47fcf3d9b103606fca33205d2fc07
+    :git: http://lvioscode.com/ios_pods_business_lvmama/LvmmMediator.git
+  LvmmNetwork:
+    :commit: c1831e3f1ffc1e2ab7dd1fa618ad4725fd2c76af
+    :git: http://lvioscode.com/ios_pods_function/LvmmNetwork.git
+  LvmmShare:
+    :commit: 05b70eeec1e502c1771a92af410890d4c126b7c9
+    :git: http://lvioscode.com/ios_pods_function/LvmmShare.git
+  LvmmStatistics:
+    :commit: 650935983f45ff8dd169cb940da7e6d1397a1662
+    :git: http://lvioscode.com/ios_pods_function/LvmmStatistics.git
+  LvmmUtil:
+    :commit: 4d6f36d0acf1d78a7c968f8e644778ffeb8dcbf0
+    :git: http://lvioscode.com/ios_pods_kit/LvmmUtil.git
+
+SPEC CHECKSUMS:
+  AFNetworking: fa5ea819f5cefc3d6750772a1a19d977c5fa768c
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  FTUtils: 3bdb064be190e72bdf7371e3bd8e9aa8826c664a
+  LvmmBaseClass: f27359fcc199b5e82bcc29c0310709fafab8964d
+  LvmmCategory: 5c2ea03e4125b3da9bf84bad283233d56de69b05
+  LvmmCms: 8c5d3560b2ae6abeeb6cb9582e513ff8940a8424
+  LvmmCommonView: 98c03903c272998205027b264709d361aa5d28c8
+  LvmmConfig: 0ad57a1d9ff0c909ccd2d3e3076c7bd91e48da39
+  LvmmImage: 3068b0f7db34de75d8452580e546e311a6e73948
+  LvmmLocation: 46896b190fdc7c1083b144240ace47fa954372bf
+  LvmmMediator: 8d0f9ca774be5c24a21b535f96cb60a80dfcf602
+  LvmmModel: d0ac46d16c3bcff6ac2c6bd97f651411e69db8b1
+  LvmmNetwork: 5d3ad870e344dace952af385a788f16b5e9f38e6
+  LvmmShare: 04e65459af6676e0b3d0fffb5c87923412006fe3
+  LvmmStatistics: ceebe03a540824061414ad6b88266d6df72aea7b
+  LvmmUtil: ac4e6387894c824abf58bf41e18ac5580ce4eda6
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: 8f0c78cabf9ab48fe709e64cc1cee4c9b4314ddd
+  ObjcAssociatedObjectHelpers: 686c291f292c26a49b9b1fa7d58130a8d35d59d2
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  RealReachability: e6c8a2bbffa316006e8c282efc1ee2567d61a920
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SFHFKeychainUtils: 9576b411a79a058f4d5381ace6f3242b9a62e664
+  TMCache: fd1b43cee9aee8797fd839be7e5814a6ad4fa45e
+
+PODFILE CHECKSUM: a4fa1ff9189410c9c04d14bdf69b8c23d7128cfb
+
+COCOAPODS: 1.1.1
